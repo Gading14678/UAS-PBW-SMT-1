@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Rent</span>Cong </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Car List</a>    
+        <a href="#featured">Featured</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>User Login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">Pilih mobil</h3>
+
+    <img data-speed="5" class="home-parallax" src="image/Mobil Home.png" alt="">
+
+    <a data-speed="7" href="#" class="btn home-parallax">Explore mobil</a>
+
+</section>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading">Cars<span> List</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Brio.png" alt="">
+                <div class="content">
+                    <h3>Brio</h3>
+                    <div class="price"> <span>price : </span>Rp.300.000/hari  </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Jazz.png" alt="">
+                <div class="content">
+                    <h3>Jazz</h3>
+                    <div class="price"> <span>price : </span>Rp.400.000/hari  </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Ertiga.jpg" alt="">
+                <div class="content">
+                    <h3>Ertiga</h3>
+                    <div class="price"> <span>price : </span>Rp.350.000/hari </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Xenia.webp" alt="">
+                <div class="content">
+                    <h3>Xenia</h3>
+                    <div class="price"> <span>price : </span>Rp.350,000/hari </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Yaris.jpg" alt="">
+                <div class="content">
+                    <h3>Yaris</h3>
+                    <div class="price"> <span>price : </span>Rp.400.000/hari </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Xpander.jpg" alt="">
+                <div class="content">
+                    <h3>Xpander</h3>
+                    <div class="price"> <span>price : </span>Rp.400.000/hari </div>
+                    <p>
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic
+                    </p>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Featured</span> Cars </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Civic.png" alt="">
+                <div class="content">
+                    <h3>Civic</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.650.000/hari</div>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Pajero.png" alt="">
+                <div class="content">
+                    <h3>Pajero Sport</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rp.750.000/hari</div>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Fortuner.jpg" alt="">
+                <div class="content">
+                    <h3>Fortuner</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp700.000/hari</div>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Innova.png" alt="">
+                <div class="content">
+                    <h3>Innova</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rp.650.000/hari</div>
+                    <a href="#" class="btn">Rent now</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/Alphard.webp" alt="">
+                 <div class="content">
+                     <h3>Alphard</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.1000.000/Hari</div>
+                     <a href="#" class="btn">Rent now</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/Rubicon.png" alt="">
+                 <div class="content">
+                     <h3>Rubicon</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                     </div>
+                     <div class="price">Rp.1250.000/Hari</div>
+                     <a href="#" class="btn">Rent now</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/Range Rover.png" alt="">
+                 <div class="content">
+                     <h3>Range Rover</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                     </div>
+                     <div class="price">Rp.1100.000/Hari</div>
+                     <a href="#" class="btn">Rent now</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/Mini Cooper.png" alt="">
+                 <div class="content">
+                     <h3>Mini Cooper</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">Rp.800.000/Hari</div>
+                     <a href="#" class="btn">Rent now</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Ipang.JPG" alt="">
+                <div class="content">
+                    <p>Sangat baik</p>
+                    <h3>Irfan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Iben.JPG" alt="">
+                <div class="content">
+                    <p>Harga terjangkau.</p>
+                    <h3>Bintang</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Alpin.JPG" alt="">
+                <div class="content">
+                    <p>Aman dan terpercaya.</p>
+                    <h3>Alfin</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Aji.JPG" alt="">
+                <div class="content">
+                    <p>Pelayanan ramah.</p>
+                    <h3>Aji</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Daiyan.JPG" alt="">
+                <div class="content">
+                    <p>Owner fast respon.</p>
+                    <h3>Daiyan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Dhia.JPG" alt="">
+                <div class="content">
+                    <p>Pilihan mobil banyak.</p>
+                    <h3>Dhia</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11040.0729290957!2d110.43738423367049!3d-7.0058308020905455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c8928383e05%3A0xc0ee7f056f96199c!2sJl.%20Tandang%20Raya%2C%20Jomblang%2C%20Kec.%20Candisari%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050256!5e0!3m2!1sid!2sid!4v1673543796578!5m2!1sid!2sid" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="Nama" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="tel" placeholder="Subject" class="box">
+            <textarea placeholder="Pesan" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-envelope"></i> gadingtambayun111213@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Semarang, Indonesia - 50256 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="https://www.instagram.com/gadchong_/"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="https://wa.me/+6287770059065"> <i class="fas fa-phone"></i> +628XXXXXX </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> Dibuat oleh Gading Anom Ajitambayun | A11.2022.14678 </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
